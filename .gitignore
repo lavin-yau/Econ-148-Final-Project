@@ -2,5 +2,4 @@
 __pycache__/
 *.pyc
 .DS_Store
-cleaned_data.csv
 figure*_replication.png

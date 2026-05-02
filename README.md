@@ -20,6 +20,5 @@ The notebook can load data in either of two ways:
 
 ## Binder
 
-Binder will install packages from `requirements.txt`. Because `cleaned_data.csv` is
-ignored by Git, upload it inside the notebook after Binder starts unless you later
-decide the dataset can be committed to the repository.
+Binder will install packages from `requirements.txt`. The cleaned dataset is
+included in this repository, so Binder users can run the notebook cells directly.
