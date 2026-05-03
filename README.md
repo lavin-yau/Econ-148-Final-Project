@@ -1,24 +1,23 @@
 # ECON 148 Project
 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lavin-yau/Econ-148-Final-Project/main?urlpath=lab/tree/ECON148_Project.ipynb)
+
 This repository contains a Jupyter notebook replication of *The Fake News Effect*
 (Thaler, 2024).
 
-## Run Locally
+## Run in Binder
 
-Install dependencies once:
+Launch the project in Binder:
 
-```bash
-pip install -r requirements.txt
-```
+[https://mybinder.org/v2/gh/lavin-yau/Econ-148-Final-Project/main?urlpath=lab/tree/ECON148_Project.ipynb](https://mybinder.org/v2/gh/lavin-yau/Econ-148-Final-Project/main?urlpath=lab/tree/ECON148_Project.ipynb)
 
-Then open `ECON148_Project.ipynb` in Jupyter.
+Binder installs the required packages from `requirements.txt` and opens the
+Jupyter notebook directly. The cleaned dataset, `cleaned_data.csv`, is included
+in this repository, so users can run all notebook cells without uploading data.
 
-The notebook can load data in either of two ways:
+Recommended workflow:
 
-- Upload `cleaned_data.csv` with the notebook's file picker.
-- Place `cleaned_data.csv` in the same folder as the notebook.
-
-## Binder
-
-Binder will install packages from `requirements.txt`. The cleaned dataset is
-included in this repository, so Binder users can run the notebook cells directly.
+1. Click the Binder badge or link above.
+2. Wait for Binder to build the environment.
+3. Open `ECON148_Project.ipynb` if it does not open automatically.
+4. Select `Run` > `Run All Cells`.
