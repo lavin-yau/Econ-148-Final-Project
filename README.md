@@ -5,6 +5,11 @@
 This repository contains a Jupyter notebook replication of the research paper *The Fake News Effect*
 (Thaler, 2024).
 
+## View Rendered Results
+
+To inspect the completed outputs without running the notebook, open
+`ECON148_Project_Rendered.ipynb`.
+
 ## Run in Binder
 
 Launch this project in Binder:
