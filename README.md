@@ -12,8 +12,9 @@ Launch the project in Binder:
 [https://mybinder.org/v2/gh/lavin-yau/Econ-148-Final-Project/main?urlpath=lab/tree/ECON148_Project.ipynb](https://mybinder.org/v2/gh/lavin-yau/Econ-148-Final-Project/main?urlpath=lab/tree/ECON148_Project.ipynb)
 
 Binder installs the required packages from `requirements.txt` and opens the
-Jupyter notebook directly. The cleaned dataset, `cleaned_data.csv`, is included
-in this repository, so users can run all notebook cells without uploading data.
+Jupyter notebook directly. The cleaned dataset, `data/cleaned_data.csv`, is
+included in this repository, so users can run all notebook cells without
+uploading data.
 
 Recommended workflow:
 
