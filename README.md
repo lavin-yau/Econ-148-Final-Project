@@ -5,11 +5,6 @@
 This repository contains a Jupyter notebook replication of the research paper *The Fake News Effect*
 (Thaler, 2024).
 
-## View Rendered Results
-
-To inspect the completed outputs without running the notebook, open
-`ECON148_Project_Rendered.ipynb`.
-
 ## Run in Binder
 
 Launch this project in Binder:
@@ -28,3 +23,29 @@ Recommended workflow:
 3. Open `ECON148_Project.ipynb` if it does not open automatically.
 4. Select `Run` > `Run All Cells`.
 5. Figures will be saved to figures folder.
+
+## Run Locally with Jupyter Notebook
+
+Download or clone this repository, then open a terminal in the project folder.
+
+Install the required packages:
+
+```bash
+pip install -r requirements.txt
+```
+
+If the classic notebook interface is not installed, install it:
+
+```bash
+pip install notebook
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+In the browser window that opens, select `ECON148_Project.ipynb`, then choose
+`Run` > `Run All Cells`. The notebook loads the dataset from
+`data/cleaned_data.csv` and saves generated figures to the `figures/` folder.
