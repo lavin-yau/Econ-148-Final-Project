@@ -33,6 +33,8 @@ In the browser window that opens, select `ECON148_Project.ipynb`, then choose
 
 Launch this project in Binder:
 
+DISCLAIMER: BINDERS BUILT IN MEMORY IS TOO LOW AND WILL CAUSE REPLICATION TIME TO BE LONG
+
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lavin-yau/Econ-148-Final-Project/main?urlpath=lab/tree/ECON148_Project.ipynb)
 
 
